@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script>
+
+//Boolean
+	//!:一个叹号是取反
+	// !! 两个叹号 是Boolean（）的简写（装逼必备）
+	// 规则 1：0 NaN  '' null undefined 是假其他都是真
+	
+//	!3//false
+//	!NaN //true
+//	!!NaN//false
+//	Boolean('’')//true
+    //![]//false
+
+    //两个值比较是否相等 遵循以下规则
+    //val1==val2
+     //两个等号比较会进行默认的数据类型转换
+     //规则1 对象跟一个比,先将对象转字符串;
+     //对象==对象//永远是false 比较的是地址，而他们的地址不同
+     //function fn(){}==function (){}//false
+     //{}=='sdf'//{}转化成字符串[object,Object] 
+    //[]==[];//false
+	//1=="1" //true
+	//[]==''//true
+	
+	
+//	1,对象==对象//永远不相等
+
+//	2,对象==字符串//对象先转字符串.toString()然后进行比较
+
+//	3,对象==布尔//对象先转字符串，然后转数字，布尔转数字，数字比较[]==false 真
+
+//	4,对象==数字//对象先转字符串，然后转数字，数字相比[]==1 假
+
+//	5,数字==布尔//布尔转数字，数字比较
+
+//	6,数字==字符串//字符转数字，数字比较
+
+//	7,字符串==布尔// 都转数字比较
+
+//	8,null==undefined//true
+
+//	9,null或undefined==任何数据比较都不相等
+
+//    三个等号比较(绝对比较):数据类型不一样,肯定不相等  null===undefined 不相等
+
+</script> 
